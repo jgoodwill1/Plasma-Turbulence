@@ -858,7 +858,7 @@ begin_initialization {
     // double duy = U0 * tanh((x - xcenter)/L_di);
     // double duz = 0;
     double dux = 0;
-    double duy = U0 *tanh(((x-xcenter)/L));
+    double duy = U0 *tanh(((x-xcenter)/Lx));
     double duz = 0;
     
 	// if ((x-xcenter)>0) {
@@ -948,7 +948,7 @@ begin_initialization {
     // inject_particles() will return an error for particles not on this
     // node and will not inject particle locally 
     
-    double tanhx = tanh((x-xcenter)/L_di);
+    double tanhx = tanh((x-xcenter)/Lx);
     
     double duy = Uy0*tanhx;
     double duz = Uz0*tanhx;
