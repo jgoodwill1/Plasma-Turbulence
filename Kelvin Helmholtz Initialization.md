@@ -8,3 +8,4 @@ Shear Layer Parameters:
 $$du_y = U_0 \tanh \left( \frac{x- (L_x/2)}{L_V} \right); U_0 = 10 V_A$$
 Magnetic and Electric Field:
 $$B_{0}= \frac{m_{e}c \omega_{ce}}{e}; \quad \theta= 2.86 \degree$$
+## I Like Pineapples 
