@@ -13,7 +13,7 @@ $$B_{0}= \frac{m_{e}c \omega_{ce}}{e}=0.5; \quad \theta= 2.86 \degree$$
 
 # Karimabadi 2013 Initializations
 Size of simulation
-$$L_{x} = 50 d_{i}; \quad L_{y} = 100 d_{i}; \quad nx = 8192; \quad ny = 16384$$
+$$L_{x} = 50 d_{i}; \quad L_{y} = 100 d_{i}; \quad nx = 8192; \quad ny = 16384; \quad nppc = 150 $$
 Simulation Parameters:
 $$\frac{m_{i}}{m_{e}} = 100 \quad L_{V} = 4 d_{i} \quad \beta = \frac{ 16 \pi n_{0}T}{B_{0}^{2}} = 0.1 \quad v_{the} = 0.2;\quad  \frac{\omega_{pe}}{\omega_{ce}} = 2  $$
 Shear Layer Parameters:
