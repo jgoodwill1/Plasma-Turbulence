@@ -16,4 +16,4 @@ def get_vpic_info(dirs):
         vpic_info[line_splits[0].strip()] = float(tail[0])
     return vpic_info
 ```
-$$\dv{x}{t}$$
+
