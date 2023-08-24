@@ -354,7 +354,7 @@ begin_initialization {
   int energies_interval = 100;
   /* int energies_interval = 1;                     // for testing */
   // int interval = int(0.5/(wci*dt));
-  int interval = 1;
+  int interval = 50;
   /* int interval = 50;                             // for testing */
   /* int tracer_interval = int(0.25/(wpe*dt)); */
   int tracer_interval = 1;                      // for testing
@@ -858,7 +858,7 @@ begin_initialization {
     // double duy = U0 * tanh((x - xcenter)/L_di);
     // double duz = 0;
     double dux = 0;
-    double duy = U0 *tanh(((x-xcenter)/Lx));
+    double duy = U0 *tanh(((x-xcenter)/L));
     double duz = 0;
     
 	// if ((x-xcenter)>0) {
@@ -948,7 +948,7 @@ begin_initialization {
     // inject_particles() will return an error for particles not on this
     // node and will not inject particle locally 
     
-    double tanhx = tanh((x-xcenter)/Lx);
+    double tanhx = tanh((x-xcenter)/L_di);
     
     double duy = Uy0*tanhx;
     double duz = Uz0*tanhx;
@@ -1886,5 +1886,4 @@ begin_field_injection {
 
 begin_particle_collisions {
 } // end particle collisions
-
 ```
