@@ -19,3 +19,6 @@ $$\Pi_{ij} D_{ij} = \Pi_{xx}D_{xx} + \Pi_{yy} D_{yy} + \Pi_{zz}D_{zz} + 2(\Pi_{x
 
 asdf
 
+
+asdfasdfasdfljk;asd;jklfjadfoihcvidjf
+
