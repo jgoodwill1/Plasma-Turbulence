@@ -6,7 +6,7 @@ $$\Pi = \begin{pmatrix} p_{xx} - p & p_{xy} & p_{xz} \\ p_{yx} & p_{yy} - p & p_
 Thus,
 $$D_{ij} = \frac12 (\partial_i u_j + \partial_j u_i) - \theta/3$$
 asdf
-$$D = \begin{pmatrix} \partial_x u_x - \frac\theta3 & \frac12(\partial_x u_y + \partial_y u_x) & \frac12 \partial_x u_z\\ \frac12(\partial_y u_x + \partial_x u_y) & \partial_y u_y - \frac\theta3 & \frac12\partial_y u_z\\ \frac12\partial_x u_z & \frac12 \partial_y u_z & -\frac\theta3 \end{pmatrix}
+$$D = \begin{bmatrix} \partial_x u_x - \frac\theta3 & \frac12(\partial_x u_y + \partial_y u_x) & \frac12 \partial_x u_z\\ \frac12(\partial_y u_x + \partial_x u_y) & \partial_y u_y - \frac\theta3 & \frac12\partial_y u_z\\ \frac12\partial_x u_z & \frac12 \partial_y u_z & -\frac\theta3 \end{bmatrix}
 $$
 asdfTHATAAHAXDj
 asdf
