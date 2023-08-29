@@ -8,14 +8,16 @@ Today
 	- Set up code for Jarrod to calculate $\lambda_D$
 
 - **Energy Dissipation Statistics**
-	- Pi-D with smoothing
+	- Update Pi-D Calculation
 	- Check magnetic energy spectrum with simple examples
+		- Update 1D/2D spectrum and compare with Yan's
 
 - **Instability Simulations**
 	- Calculate Current Density
 
 - **Sub-Alfvenic Intervals**
 	- Autocorrelation for intervals (check with Sohom)
+
 - **RRE**
 	- Update abstract w/ Bill’s comments
 	- Start to add some figures
