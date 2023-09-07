@@ -11,7 +11,7 @@ Magnetic and Electric Field:
 $$\vec{B} = B_{0} (\sin \theta\hat{y} + \cos \theta \hat{z})\quad \vec{E} = -\left( \frac{B_{0}U_{0}}{c}\right) \tanh \left(\frac{x - (L_x/2)}{L_v} \right)$$
 $$B_{0}= \frac{m_{e}c \omega_{ce}}{e}=0.5; \quad \theta= 2.86 \degree$$
 Charge Separation:
-$$ \partial_x E_x = - 4 \pi n_e(x)$$
+$$ E_x = - 4 \pi n_e(x)$$
 $$n_e(x) = \left( \frac{B_{0}U_{0}}{ 4 \pi L_v c}\right) sech^2 \left( \frac{x-(L_x/2)}{L_v} \right)$$
 
 # Karimabadi 2013 Initializations
