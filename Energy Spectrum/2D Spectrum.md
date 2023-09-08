@@ -1,25 +1,36 @@
+Method: Radial average over bins
 ```python
-def Spec2D(ar):
-    """
-      Spec2D(ar,ax=2,lenx=2*np.pi,leny=2*np.pi,lenz=2*np.pi)
-
-      2D spectrum of ar perpendicular to axis ax
-
-    """
-    if len(ar) == 0:
-      print('No array provided! Exiting!')
-      return
-    ar=ar-np.mean(ar)
+def Eb2Dspec(dbx, dby):
+    nx = dbx.shape[0]
+    ny = dbx.shape[1]
     
-    nx=np.shape(ar)[0]
-    kx=nf.fftshift(nf.fftfreq(nx))*nx
-    ny=np.shape(ar)[1]
-    ky=nf.fftshift(nf.fftfreq(ny))*ny
+    fdbx = np.fft.fftshift(np.fft.fftn(dbx))
+    fdbx = np.abs(fdbx)**2
+    fdbx = fdbx.flatten()
     
-    
+    fdby = np.fft.fftshift(np.fft.fftn(dby))
+    fdby = np.abs(fdby)**2
+    fdby = fdbx.flatten()
 
-    far = nf.fftshift(nf.fftn(ar))/(nx*ny); fftea=0.5*np.abs(far)**2
-    fftebx=fftea.sum(axis=1)
-    ffteby=fftea.sum(axis=0)
-    return kx,ky,fftebx, ffteby
+    kfreqx = np.fft.fftshift(np.fft.fftfreq(nx) * nx)
+    kfreqy = np.fft.fftshift(np.fft.fftfreq(ny) * ny)
+    kfreq2D = np.meshgrid(kfreqx, kfreqy)
+    knrm = np.sqrt(kfreq2D[0]**2 + kfreq2D[1]**2)
+    knrm = knrm.flatten()
+
+    kvals = np.linspace(0, int(np.max(knrm)), len(knrm))
+    kbins = np.linspace(0, int(np.max(knrm)), int(np.max(knrm)))
+    fdbx_av = np.zeros(len(kbins))
+    fdby_av = np.zeros(len(kbins))
+    print(len(kbins))
+    for k in np.arange(0, int(np.max(knrm))-1):
+        index = np.where((knrm > kbins[k]) & (knrm < kbins[k+1]))[0]
+        if len(index) == 0:
+            fdbx_av[k] = 0
+            fdby_av[k] = 0
+        else:
+            fdbx_av[k+1] = 2 * np.pi * (k+1) * np.mean(fdbx[index])/(nx * ny)
+            fdby_av[k+1] = 2 * np.pi * (k+1) * np.mean(fdby[index])/(nx * ny)
+            fdb_av = fdbx_av + fdby_av 
+    return kbins, fdb_av
 ```
