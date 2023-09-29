@@ -3,6 +3,7 @@
 	- RRE Paper
 		- Density, velocity, correlation lengths, di, de, magnetic field values
 	- Order new screen cover
+	- Email Robbie and Arijit about Fluids and Plasma seminar
 
 
 	- **General**
