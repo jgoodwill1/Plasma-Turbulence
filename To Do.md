@@ -1,30 +1,33 @@
-- Today
-	- Update Kelvin Helmholtz instability
-		- Add charge separation
-	- Add description of VPIC
-	- Add plots for KH to RRE
-	- Update Presentation
-	- Talk with Sohom about spectra
-	- Meet with Fan
+- Today 
+	- Fold Laundry
+	- Clean Room
+	- RRE Paper
+		- Density, velocity, correlation lengths, di, de, magnetic field values
+	- Order protein powder
+	- Order new screen cover
 
-- Later
+
 	- **General**
 		- Submit reimbursement for Solar Wind 16
-		- Send Mom money for international data
 	
 	- **DAPPEr**
-		- Set up code for Jarrod to calculate $\lambda_D$
+		- Langmuir probes from Debye Length
+		- Ionosphere Scientific Output
 	
 	- **Energy Dissipation Statistics**
-		- Update Pi-D Calculation
-		- Check magnetic energy spectrum with simple examples
-			- Update 1D/2D spectrum and compare with Yan's
+		- Contact Yan about reconnection statistics
+		- Average over absolute value of Pi-D
+
+	- Kelvin Helmholtz Instability
+		- Calculate nonlinear times
 	
 	- **Sub-Alfvenic Intervals**
 		- Autocorrelation for intervals (check with Sohom)
 	
 	- **RRE**
-		- Update abstract w/ Bill’s comments
-		- Start to add some figures
-		- Write results (& get review)
-		- Write the rest of the paper lol
+		- Write about limits of MHD
+		- Include Ciccio's work on radial switchbacks
+		- Simulation table on KH model
+		- Look into books explaining KH model simply
+		- Explain -8/3 power law for 2D simulation
+		- Fast Poisson solvers
