@@ -1,9 +1,7 @@
 - Today 
 	- Fold Laundry
-	- Clean Room
-	- RRE Paper
+	- RRE PaperP
 		- Density, velocity, correlation lengths, di, de, magnetic field values
-	- Order protein powder
 	- Order new screen cover
 
 
