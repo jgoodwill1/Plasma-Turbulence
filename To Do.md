@@ -1,6 +1,6 @@
 - Today 
 	- Fold Laundry
-	- RRE PaperP
+	- RRE Paper
 		- Density, velocity, correlation lengths, di, de, magnetic field values
 	- Order new screen cover
 
