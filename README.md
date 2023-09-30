@@ -1,2 +1,2 @@
-# obsidian
-Publishing Obisidian notes
+# Plasma Turbulence Notes
+Publishing Notes on Plasma
