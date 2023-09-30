@@ -1,0 +1,5 @@
+Cross Helicity<br />
+<span class="math math-block is-loaded"></span>Normalized Cross Helicity<br />
+<span class="math math-block is-loaded"></span>
+
+where <span class="math math-inline is-loaded"></span>
