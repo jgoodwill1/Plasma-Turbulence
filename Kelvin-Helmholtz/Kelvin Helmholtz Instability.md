@@ -45,5 +45,7 @@ $$
 $$
 Writing this system of equations in matrix form, we can find solve the eigenvalue problem  to find the dispersion relation:
 $$
-\omega = k \frac{\rho_1 U_1 + \rho_2 U_2}{}
+\omega = k \frac{\rho_1 U_1 + \rho_2 U_2}{\rho_1 + \rho_2} \pm ik \frac{\sqrt{\rho_1 \rho_2} \left|U_1- U_2\right|}{\rho_1 + \rho_2}
 $$
+**Note: 1 denotes upper boundary and 2 denotes lower boundary**
+
