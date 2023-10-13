@@ -15,5 +15,8 @@ $$
 $$
 \frac{\partial \Phi_1}{\partial t} + \frac{(\nabla \Phi_1)^2}{2} + \frac{p_1}{\rho_1} + C_1 \qquad \frac{\partial \Phi_2}{\partial t} + \frac{(\nabla \Phi_2)^2}{2} + \frac{p_1}{\rho_1} + C_2
 $$
-
+Kinematic Equations at boundary:
+$$
+\frac{\partial \eta}{\partial t} + \frac{\partial \Phi_1}{\partial x} \frac{\partial \eta}{\partial x} = \frac{\partial{\Phi_1}}{\partial t}
+$$
 
