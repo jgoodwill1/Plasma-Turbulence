@@ -29,4 +29,8 @@ $$
 $$
 \rho_1 \left(\frac{\partial \phi_1}{\partial t} + U_1 \frac{\partial \phi_1}{\partial x} \right) = \rho_2 \left(\frac{\partial \phi_2}{\partial t} + U_2 \frac{\partial \phi_2}{\partial x} \right)
 $$
-Now, we can assume that 
+Now, we can assume that $\eta$  goes as a sinusoidal along the boundary
+$$
+\eta = A e^{i(kx - \omega t)}
+$$
+Thus, 
