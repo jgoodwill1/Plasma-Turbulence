@@ -33,4 +33,6 @@ Now, we can assume that $\eta$  goes as a sinusoidal along the boundary
 $$
 \eta = A e^{i(kx - \omega t)}
 $$
-Thus, 
+$$
+\phi_i = \bar \phi_i e^{\pm kz} e^{i(kx - \omega t)}
+$$
