@@ -13,5 +13,7 @@ $$
 q_1 = \nabla \Phi_1 \quad \nabla^2\Phi = 0; \qquad q_2 = \nabla \Phi_2 \quad \nabla^2 \Phi_2 = 0
 $$
 $$
-\frac{\partial \Phi}{\partial t} + \frac{\nabla^2 \Phi}{}
+\frac{\partial \Phi_1}{\partial t} + \frac{(\nabla \Phi_1)^2}{2} + \frac{p_1}{\rho_1} + C_1 \qquad \frac{\partial \Phi_2}{\partial t} + \frac{(\nabla \Phi_2)^2}{2} + \frac{p_1}{\rho_1} + C_2
 $$
+
+
