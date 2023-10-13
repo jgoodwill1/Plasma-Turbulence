@@ -34,5 +34,16 @@ $$
 \eta = A e^{i(kx - \omega t)}
 $$
 $$
-\phi_i = \bar \phi_i e^{\pm kz} e^{i(kx - \omega t)}
+\phi_i = \bar \phi_i e^{\pm ky} e^{i(kx - \omega t)}
+$$
+Substituting the sinusoidal into the kinematic and dynamic condition at the boundary, we get
+$$
+	(-i \omega + ikU_i)A = \pm k \bar \phi_i  
+$$
+$$
+	\rho_1 (-i \omega + ik U_1)\phi_1 = \rho_2(-i \omega + ik U_2) \phi_2
+$$
+Writing this system of equations in matrix form, we can find solve the eigenvalue problem  to find the dispersion relation:
+$$
+\omega = k \frac{\rho_1 U_1 + \rho_2 U_2}{}
 $$
