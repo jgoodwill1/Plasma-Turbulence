@@ -22,9 +22,9 @@ $$
 $$
 \frac{\partial \eta}{\partial t} + \frac{\partial \Phi_2}{\partial x} \frac{\partial \eta}{\partial x} = \frac{\partial{\Phi_2}}{\partial t}
 $$
-If  $\Phi_i=U_i x+\phi_i$ where $\phi_i \ll \Phi_i$, then the kinematic and dynamic condition at the boundary $z=0$ become:
+If  $\Phi_i=U_i x+\phi_i$ where $\phi_i \ll \Phi_i$, then the kinematic and dynamic condition at the boundary $y=0$ become:
 $$
-\frac{\partial \eta}{\partial t} + U_i \frac{\partial \eta}{\partial x} = \frac{\partial \phi_i}{\partial z}
+\frac{\partial \eta}{\partial t} + U_i \frac{\partial \eta}{\partial x} = \frac{\partial \phi_i}{\partial y}
 $$
 $$
 \rho_1 \left(\frac{\partial \phi_1}{\partial t} + U_1 \frac{\partial \phi_1}{\partial x} \right) = \rho_2 \left(\frac{\partial \phi_2}{\partial t} + U_2 \frac{\partial \phi_2}{\partial x} \right)
