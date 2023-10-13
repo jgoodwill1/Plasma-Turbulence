@@ -19,4 +19,7 @@ Kinematic Equations at boundary:
 $$
 \frac{\partial \eta}{\partial t} + \frac{\partial \Phi_1}{\partial x} \frac{\partial \eta}{\partial x} = \frac{\partial{\Phi_1}}{\partial t}
 $$
+$$
+\frac{\partial \eta}{\partial t} + \frac{\partial \Phi_2}{\partial x} \frac{\partial \eta}{\partial x} = \frac{\partial{\Phi_2}}{\partial t}
+$$
 
