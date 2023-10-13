@@ -13,5 +13,5 @@ $$
 q_1 = \nabla \Phi_1 \quad \nabla^2\Phi = 0; \qquad q_2 = \nabla \Phi_2 \quad \nabla^2 \Phi_2 = 0
 $$
 $$
-\frac{\partial \Phi}{\partial t} + \frac{}
+\frac{\partial \Phi}{\partial t} + \frac{\nabla^2 \Phi}{}
 $$
