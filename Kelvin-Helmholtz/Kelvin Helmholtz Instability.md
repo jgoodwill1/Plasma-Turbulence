@@ -22,4 +22,7 @@ $$
 $$
 \frac{\partial \eta}{\partial t} + \frac{\partial \Phi_2}{\partial x} \frac{\partial \eta}{\partial x} = \frac{\partial{\Phi_2}}{\partial t}
 $$
-
+If  $\Phi_i=U_i x+\phi_i$, then the kinematic and dynamic condition become:
+$$
+\frac{\partial \eta}{\partial t} + U_i \frac{\partial \eta}{\partial x}
+$$
