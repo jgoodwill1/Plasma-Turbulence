@@ -29,5 +29,10 @@ This normalization gets rid of any $\mu_0$ and $\epsilon_0$
 
 Simplistically, we can set all universal constants to be 1
 $$
-c = \mu_0=\epsilon_0= 
+c = \mu_0=\epsilon_0= m_e = q_i = q_e = \omega_{pe} = d_e = n_0 = 1
 $$
+This way, the only parameters that matter are:
+- Mass ratio $m_p/m_e$
+- Temperature ratio $T_p/T_e$
+- Characteristic velocity ratio, such as $v_A/c$
+- Plasma beta 
