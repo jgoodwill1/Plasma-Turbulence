@@ -23,5 +23,11 @@ $$
 $$
 where 
 $$
-c = \frac{1}{\sqrt{\mu_0 \epsilon_0}} \quad \omega_{pe} = \sqrt{\frac{e^2 n_0}{m_e \epsilon}}
+c = \frac{1}{\sqrt{\mu_0 \epsilon_0}} \quad \omega_{pe} = \sqrt{\frac{e^2 n_0}{m_e \epsilon_0}} \quad d_e = \frac{c}{\omega_{pe}}
+$$
+This normalization gets rid of any $\mu_0$ and $\epsilon_0$
+
+Simplistically, we can set all universal constants to be 1
+$$
+c = \mu_0=\epsilon_0= 
 $$
