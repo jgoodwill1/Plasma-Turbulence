@@ -29,8 +29,11 @@ $$
 	i(k_x u + k_y v) &= -d_z w
 \end{align}
 $$
-Multiplying the first equation by $-ik_x$ and the second equation by $ik_y$, and adding them together, we get
+Multiplying the 1st equation by $-ik_x$ and the 2nd equation by $ik_y$, and adding them together, we get
 $$
 i\rho(n + k_x U )Dw - i\rho k_x(d_z U)w = -k^2 \delta \rho
 $$
-
+Using the 3rd equation and inserting the 4th and 5th equation, we get
+$$
+i \rho (n+k_x U)w = -d_z \delta p - ig(d_z\rho)\frac{w}{n+k_x U} + ik^2 \sum_s T_s\left(\frac{w}{n+k_x U}\right)_s \delta(z-z_s)
+$$
