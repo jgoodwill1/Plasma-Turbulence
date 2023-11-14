@@ -21,6 +21,16 @@ $$
 Thus, the perturbation equations become
 $$
 \begin{align}
-
-\end{a}
+	i \rho(n + k_x U)u + \rho(d_z U)w &= -ik_x \delta p\\
+	i \rho(n + k_x U)v &= -ik_y \delta p\\
+	i \rho(n + k_x U)w &= -d_z \delta p - g \delta \rho - k^2 \sum_s T_s \delta z_s \delta(z-z_s)\\
+	i(n + k_x U)\delta \rho &= - w d_z \rho\\
+	i(n + k_x U_s)\delta z_s &= w_s\\
+	i(k_x u + k_y v) &= -d_z w
+\end{align}
 $$
+Multiplying the first equation by $-ik_x$ and the second equation by $ik_y$, and adding them together, we get
+$$
+
+$$
+
