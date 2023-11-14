@@ -37,3 +37,8 @@ Using the 3rd equation and inserting the 4th and 5th equation, we get
 $$
 i \rho (n+k_x U)w = -d_z \delta p - ig(d_z\rho)\frac{w}{n+k_x U} + ik^2 \sum_s T_s\left(\frac{w}{n+k_x U}\right)_s \delta(z-z_s)
 $$
+Now we can eliminate $\delta p$ between these equations
+$$
+d_z[\rho(n+k_x U)d_z w - \rho k_x (d_z U)w]-k^2 \rho(n+k_xU) w= gk^2[(d_z rho) -\frac{k^2}{g}\sum_s T_s \delta(z-z_s)]\frac{w}{n+k_xU}
+$$
+The boundary conditions of this equation mean that $w=0$ at $z=0$ and $z=d$.
