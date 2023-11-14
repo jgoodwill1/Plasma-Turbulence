@@ -10,3 +10,17 @@ $$
 	\partial_x u + \partial_y v + \partial_z w = 0
 \end{align}
 $$
+where $z_s$ refers to the discontinuity. The streaming is assumed to take place in the x-direction, with the discontinuity occurring in the z-plane. We seek for disturbances in normal modes by assuming a solution:
+$$
+	e^{i(k_x x + k_y y + nt)}
+$$
+With this solution, we find that
+$$
+	\partial_x = ik_x; \partial_y = ik_y; \partial_t = in
+$$
+Thus, the perturbation equations become
+$$
+\begin{align}
+
+\end{a}
+$$
