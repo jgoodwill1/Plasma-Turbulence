@@ -1,0 +1,2 @@
+The Kelvin-Helmholtz instability is different layers of a heterogenous fluid are in relative motion.
+Let the density of any point be $\rho + \delta \rho$ and the change in pressure be $\delta p$, and the velocity components are $U + u, v, w$. This 
