@@ -31,6 +31,6 @@ $$
 $$
 Multiplying the first equation by $-ik_x$ and the second equation by $ik_y$, and adding them together, we get
 $$
-
+i\rho(n + k_x U )Dw - i\rho k_x(d_z U)w = -k^2 \delta \rho
 $$
 
