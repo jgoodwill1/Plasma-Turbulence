@@ -35,4 +35,4 @@ This way, the only parameters that matter are:
 - Mass ratio $m_p/m_e$
 - Temperature ratio $T_p/T_e$
 - Characteristic velocity ratio, such as $v_A/c$
-- Plasma beta 
+- Plasma beta ![[Attachments/swtchbck.jpg]]
