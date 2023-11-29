@@ -10,3 +10,4 @@ $$
 
 $$\Pi_{ij} D_{ij} = \Pi_{xx}D_{xx} + \Pi_{yy} D_{yy} + \Pi_{zz}D_{zz} + \Pi_{xy}D_{xy} + \Pi_{yx}D_{yx} + \Pi_{xz}D_{xz} + \Pi_{zx}D_{zx} + \Pi_{yz}D_{yz} + \Pi_{zy}D_{zy}$$
 $$\Pi_{ij} D_{ij} = \Pi_{xx}D_{xx} + \Pi_{yy} D_{yy} + \Pi_{zz}D_{zz} + 2(\Pi_{xy}D_{xy} + \Pi_{xz}D_{xz} + \Pi_{yz}D_{yz})$$
+
