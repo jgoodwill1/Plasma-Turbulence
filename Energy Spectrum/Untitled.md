@@ -1,2 +1,0 @@
-- Join the Coffee Zoom
-- Set up teams
