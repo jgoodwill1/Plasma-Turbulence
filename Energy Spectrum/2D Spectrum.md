@@ -36,3 +36,5 @@ def EbSpec2D(dbx, dby):
             fdb_av = fdbx_av + fdby_av
     return kbins, fdb_av
 ```
+![[Pasted image 20231218125802.png]]
+![[magSpec_filt.jpg]]
