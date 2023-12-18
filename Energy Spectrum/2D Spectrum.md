@@ -1,6 +1,6 @@
 Method: Radial average over bins
 ```python
-def Eb2Dspec(dbx, dby):
+def EbSpec2D(dbx, dby):
     nx = dbx.shape[0]
     ny = dbx.shape[1]
     
