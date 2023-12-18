@@ -1,4 +1,4 @@
-Method: Radial average over bins
+![[magSpec_filt.jpg]]![[149p6_spectrum 1.jpg]]Method: Radial average over bins
 ```python
 def EbSpec2D(dbx, dby):
     nx = dbx.shape[0]
@@ -36,5 +36,7 @@ def EbSpec2D(dbx, dby):
             fdb_av = fdbx_av + fdby_av
     return kbins, fdb_av
 ```
-![[Pasted image 20231218125802.png]]
+![[Yan_Spectrum.jpeg]]
+
+![[149p6_spectrum.jpg]]
 ![[magSpec_filt.jpg]]
