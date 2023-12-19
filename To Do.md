@@ -1,4 +1,5 @@
-- Today 
+
+-Today 
 	- Review Bill's presentation
 		- Derive incompressible MHD in terms of Elsasser
 		- Second order structure function
