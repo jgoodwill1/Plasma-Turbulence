@@ -8,7 +8,7 @@ $$\frac{m_{i}}{m_{e}} = 100 \quad L_{V} = 0.01 d_{i} \quad \beta = \frac{2n_{0}T
 Shear Layer Parameters:
 $$du_y = U_0 \tanh \left( \frac{x- (L_x/2)}{L_V} \right); U_0 = 10 V_A$$
 Magnetic and Electric Field:
-$$\vec{B} = B_{0} (\sin \theta\hat{y} + \cos \theta \hat{z})\quad \vec{E} = -\left( \frac{B_{0}U_{0}}{c}\right) \tanh \left(\frac{x - (L_x/2)}{L_v} \right)$$
+$$\vec{B} = B_{0} (\sin \theta\hat{y} + \cos \theta \hat{z})\quad \vec{E} = -\left( \frac{B_{z}U_{0}}{c}\right) \tanh \left(\frac{x - (L_x/2)}{L_v} \right)$$
 $$B_{0}= \frac{m_{e}c \omega_{ce}}{e}=0.5; \quad \theta= 2.86 \degree$$
 Charge Separation:
 $$\partial_x E_x = - 4 \pi n_e(x)$$
