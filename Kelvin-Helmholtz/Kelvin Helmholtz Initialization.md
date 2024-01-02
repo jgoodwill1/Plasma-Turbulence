@@ -27,3 +27,4 @@ $$\vec{B} = B_{0} (\sin \theta\hat{y} + \cos \theta \hat{z}); \quad \vec{E} = -\
 $$B_{0}= \frac{m_{e}c \omega_{ce}}{e}; \quad \theta= 2.86 \degree$$
 Excess Electrons:
 $$n_{e}= - \frac{\partial_{x} E_{x}}{4 \pi e} $$
+
